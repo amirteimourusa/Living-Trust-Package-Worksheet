@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f9;
+  color: black;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+}
+
+input {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: #1964b4;
+  font-family: "Georgia", serif;
+}
+
+.first-letter {
+  font-size: 1.2em; /* Make the first letter larger */
+  font-weight: bold; /* Optional: Make it bold */
+}
+h3 {
+  text-align: center;
+  color: #1964b4;
+  font-family: "Georgia", serif;
+}
+
+.first-letter {
+  font-size: 1.2em; /* Make the first letter larger */
+  font-weight: bold; /* Optional: Make it bold */
+}
+
+.page-frame {
+  position: relative;
+  width: 816px; /* 8.5 inches in pixels at 96 DPI */
+  height: 1056px; /* 11 inches in pixels at 96 DPI */
+  margin: 10px auto;
+  border: 6px solid #1964b4; /* Inner blue border */
+  background-color: white; /* Light gray background */
+  box-sizing: border-box; /* Includes padding and border in dimensions */
+  padding: 50px;
+  z-index: 0; /* Ensure correct stacking */
+  overflow: hidden; /* Prevent content from spilling outside the page */
+}
+.centered {
+  text-align: center; /* Centers the text and underline */
+}
+
+.underlined {
+  color: black; /* Text color */
+  font-family: "Arial", sans-serif; /* Font style */
+  border-bottom: 2px solid black; /* Black underline */
+  display: inline-block; /* Ensures the underline only spans the text */
+  padding-bottom: 0px; /* Adds space between text and underline */
+  margin: 0; /* Remove default margins */
+}
+
+.text-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  position: absolute;
+  top: 0; /* Aligns input above the line */
+  height: 20px; /* Matches the height for visual balance */
+}
