@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Living-Trust-Package-Worksheet
 
 # This form processes data locally in your browser. No data is saved or transmitted.
