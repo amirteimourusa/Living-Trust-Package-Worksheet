@@ -2,6 +2,7 @@
   "name": "trust-form-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://amirteimourusa.github.io/Living-Trust-Package-Worksheet",
   "dependencies": {
     "cra-template": "1.2.0",
     "html2canvas": "^1.4.1",
@@ -11,11 +12,16 @@
     "react-dom": "^19.0.0",
     "react-scripts": "^3.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
