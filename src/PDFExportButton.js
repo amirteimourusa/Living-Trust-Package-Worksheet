@@ -35,7 +35,7 @@ const PDFExportButton = () => {
       }
     }
 
-    pdf.save("Document.pdf");
+    pdf.save("Living-Trust-Package-Worksheet.pdf");
   };
 
   return (
