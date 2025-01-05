@@ -4,13 +4,15 @@
   "private": true,
   "homepage": "https://amirteimourusa.github.io/Living-Trust-Package-Worksheet",
   "dependencies": {
+    "@react-pdf/renderer": "^4.1.6",
     "cra-template": "1.2.0",
     "html2canvas": "^1.4.1",
     "html2pdf.js": "^0.10.2",
     "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
