@@ -45,7 +45,7 @@ const PDFExportButton = () => {
         display: "block",
         margin: "20px auto",
         padding: "10px 20px",
-        backgroundColor: "#007bff",
+        backgroundColor: "#ff0000",
         color: "#fff",
         border: "none",
         borderRadius: "4px",
