@@ -26,9 +26,13 @@ const PDFExportButton = () => {
 
       pdf.setFont("helvetica", "normal");
       pdf.setFontSize(10);
-      pdf.text(`Page ${i + 1}`, 306, 752, { align: "center" });
-      pdf.text("THE KAYLOR LAW FIRM", 306, 762, { align: "center" });
-      pdf.text("(949) 715-1144", 306, 772, { align: "center" });
+      if (i > 0) {
+        pdf.text(`Page ${i + 1} of ${pages.length}`, 306, 752, {
+          align: "center",
+        });
+        pdf.text("THE KAYLOR LAW FIRM", 306, 762, { align: "center" });
+        pdf.text("(949) 715-1144", 306, 772, { align: "center" });
+      }
     }
 
     pdf.save("Document.pdf");
