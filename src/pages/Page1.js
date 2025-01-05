@@ -8,6 +8,7 @@ import {
   dobContainerStyle,
   textInputStyle,
 } from "../Style";
+import DynamicInput from "../DynamicInput";
 
 const Page1 = () => {
   return (
@@ -37,7 +38,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Name:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -45,7 +46,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Date of Birth:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Spouse's Name:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -62,7 +63,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Date of Birth:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -72,7 +73,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Home Address:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -80,7 +81,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Email:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -88,7 +89,7 @@ const Page1 = () => {
           {/* Name Section */}
           <div style={nameSectionStyle}>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -103,7 +104,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Home Phone:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -111,7 +112,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Cell Phone:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -120,7 +121,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Present/Past Occupation:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -128,7 +129,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -138,7 +139,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Employer's Name and Address:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -146,7 +147,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -154,14 +155,14 @@ const Page1 = () => {
           {/* Name Section */}
           <div style={nameSectionStyle}>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
           {/* Date of Birth Section */}
           <div style={sectionStyle}>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -171,7 +172,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Business Phone:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -179,7 +180,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -189,7 +190,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Social Security #:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -197,7 +198,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -207,7 +208,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Citizenship:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -215,7 +216,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -225,7 +226,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Date and Place of Marriage:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -233,7 +234,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -241,14 +242,14 @@ const Page1 = () => {
           {/* Name Section */}
           <div style={nameSectionStyle}>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
           {/* Date of Birth Section */}
           <div style={sectionStyle}>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -258,7 +259,7 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>Prior Marriages:</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
@@ -266,7 +267,7 @@ const Page1 = () => {
           <div style={sectionStyle}>
             <label style={labelStyle}>Spouse's:</label>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
@@ -275,14 +276,14 @@ const Page1 = () => {
           <div style={nameSectionStyle}>
             <label style={labelStyle}>How Ended?</label>
             <div style={inputContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
 
           {/* Date of Birth Section */}
           <div style={sectionStyle}>
             <div style={dobContainerStyle}>
-              <input type="text" style={textInputStyle} />
+              <DynamicInput inputStyle={textInputStyle} />
             </div>
           </div>
         </div>
