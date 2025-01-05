@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Living-Trust-Package-Worksheet/precache-manifest.87f38633befffb846305f74d3944704e.js"
+  "/Living-Trust-Package-Worksheet/precache-manifest.db6702a0c9cf3c5ed741c61d1355a33e.js"
 );
 
 self.addEventListener('message', (event) => {
