@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/Living-Trust-Package-Worksheet/static/css/main.53142991.chunk.css",
-    "main.js": "/Living-Trust-Package-Worksheet/static/js/main.c5dae0bd.chunk.js",
-    "main.js.map": "/Living-Trust-Package-Worksheet/static/js/main.c5dae0bd.chunk.js.map",
-    "runtime~main.js": "/Living-Trust-Package-Worksheet/static/js/runtime~main.70966e63.js",
-    "runtime~main.js.map": "/Living-Trust-Package-Worksheet/static/js/runtime~main.70966e63.js.map",
-    "static/js/2.c2266367.chunk.js": "/Living-Trust-Package-Worksheet/static/js/2.c2266367.chunk.js",
-    "static/js/2.c2266367.chunk.js.map": "/Living-Trust-Package-Worksheet/static/js/2.c2266367.chunk.js.map",
-    "static/js/3.039bae94.chunk.js": "/Living-Trust-Package-Worksheet/static/js/3.039bae94.chunk.js",
-    "static/js/3.039bae94.chunk.js.map": "/Living-Trust-Package-Worksheet/static/js/3.039bae94.chunk.js.map",
-    "static/js/4.1f05dfe3.chunk.js": "/Living-Trust-Package-Worksheet/static/js/4.1f05dfe3.chunk.js",
-    "static/js/4.1f05dfe3.chunk.js.map": "/Living-Trust-Package-Worksheet/static/js/4.1f05dfe3.chunk.js.map",
+    "main.css": "/Living-Trust-Package-Worksheet/static/css/main.3dbe53af.css",
+    "main.js": "/Living-Trust-Package-Worksheet/static/js/main.95f3b59c.js",
+    "static/js/213.34abd0f4.chunk.js": "/Living-Trust-Package-Worksheet/static/js/213.34abd0f4.chunk.js",
+    "static/js/455.a51c8e8f.chunk.js": "/Living-Trust-Package-Worksheet/static/js/455.a51c8e8f.chunk.js",
     "index.html": "/Living-Trust-Package-Worksheet/index.html",
-    "precache-manifest.db6702a0c9cf3c5ed741c61d1355a33e.js": "/Living-Trust-Package-Worksheet/precache-manifest.db6702a0c9cf3c5ed741c61d1355a33e.js",
-    "service-worker.js": "/Living-Trust-Package-Worksheet/service-worker.js",
-    "static/css/main.53142991.chunk.css.map": "/Living-Trust-Package-Worksheet/static/css/main.53142991.chunk.css.map"
-  }
+    "main.3dbe53af.css.map": "/Living-Trust-Package-Worksheet/static/css/main.3dbe53af.css.map",
+    "main.95f3b59c.js.map": "/Living-Trust-Package-Worksheet/static/js/main.95f3b59c.js.map",
+    "213.34abd0f4.chunk.js.map": "/Living-Trust-Package-Worksheet/static/js/213.34abd0f4.chunk.js.map",
+    "455.a51c8e8f.chunk.js.map": "/Living-Trust-Package-Worksheet/static/js/455.a51c8e8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbe53af.css",
+    "static/js/main.95f3b59c.js"
+  ]
 }
