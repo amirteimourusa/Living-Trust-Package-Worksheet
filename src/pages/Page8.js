@@ -24,7 +24,7 @@ const Page8 = () => {
           textDecoration: "underline", // Add underline
         }}
       >
-        <strong>Names & Addresses of Proposed Beneficiaries</strong>
+        <strong>Individuals to Be Contacted Upon Incapacity or Death</strong>
       </p>
       <p
         style={{
@@ -154,13 +154,17 @@ const Page8 = () => {
         </p>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Safe Deposit Box #:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Safe Deposit Box #:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
           </div>
           <div style={sectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Location:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Location:
+            </label>
             <div style={dobContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -168,7 +172,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Persons Authorized to Enter:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Persons Authorized to Enter:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -176,7 +182,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Contents:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Contents:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -184,13 +192,17 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Safe Deposit Box #:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Safe Deposit Box #:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
           </div>
           <div style={sectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Location:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Location:
+            </label>
             <div style={dobContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -198,7 +210,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Persons Authorized to Enter:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Persons Authorized to Enter:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -206,7 +220,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Contents:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Contents:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -214,13 +230,17 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Safe Deposit Box #:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Safe Deposit Box #:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
           </div>
           <div style={sectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Location:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Location:
+            </label>
             <div style={dobContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -228,7 +248,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Persons Authorized to Enter:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Persons Authorized to Enter:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
@@ -236,7 +258,9 @@ const Page8 = () => {
         </div>
         <div style={containerStyle}>
           <div style={nameSectionStyle}>
-            <label style={{ ...labelStyle, fontWeight: "normal" }}>Contents:</label>
+            <label style={{ ...labelStyle, fontWeight: "normal" }}>
+              Contents:
+            </label>
             <div style={inputContainerStyle}>
               <input type="text" style={textInputStyle} />
             </div>
